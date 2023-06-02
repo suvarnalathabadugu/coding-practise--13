@@ -1,0 +1,86 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #93c5fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.countries-capitals-card {
+  background-color: #ffffff;
+
+  width: 90%;
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 344px;
+}
+@media screen and (min-width: 768px) {
+  .countries-capitals-card {
+    padding-left: 60px;
+    padding-top: 40px;
+    padding-right: 60px;
+    max-width: 520px;
+  }
+}
+.heading {
+  color: #000000;
+  font-family: roboto;
+  font-size: 25px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 45px;
+  }
+}
+.capital-select {
+  background-color: #f8fafc;
+  font-family: roboto;
+  font-size: 12px;
+  font-weight: 400;
+  width: 100px;
+  height: 50px;
+  border: 1px solid #cbd2d9;
+  border-radius: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  outline: none;
+}
+.option {
+  color: #323f4b;
+  font-family: roboto;
+  font-size: 12px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .option {
+    font-size: 14px;
+  }
+}
+.para {
+  color: #000000;
+  font-family: roboto;
+  font-size: 12px;
+  margin-left: 8px;
+}
+@media screen and (min-width: 768px) {
+  .para {
+    font-size: 24px;
+  }
+}
+.country {
+  color: #1e293b;
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .country {
+    font-size: 24px;
+  }
+}
+.ques-con {
+  display: flex;
+  align-items: center;
+}
